@@ -1,7 +1,10 @@
 BabylonJS 2.5 Modified - Meteor
 ======================
 
-Modification DirectionalLight
-
-=>	new BABYLON.DirectionalLight(name,position,direction,scene)
-Ajout de la position
+Modifications :
+---------------
+*DirectionalLight
+    *Original :
+	    new BABYLON.DirectionalLight(name,direction,scene)
+	*Modified :
+	    new BABYLON.DirectionalLight(name,position,direction,scene)
