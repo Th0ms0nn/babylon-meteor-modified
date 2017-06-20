@@ -3,8 +3,8 @@ BabylonJS 2.5 Modified - Meteor
 
 Modifications :
 ---------------
-*DirectionalLight
-    *Original :
+* DirectionalLight
+    * Original :
 	    new BABYLON.DirectionalLight(name,direction,scene)
-	*Modified :
+	* Modified :
 	    new BABYLON.DirectionalLight(name,position,direction,scene)
